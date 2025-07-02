@@ -1,0 +1,62 @@
+#introducao{
+  margin: 2%;
+}
+
+#links{
+  margin: 5% 2% 2% 2%;
+
+}
+
+#sobre{
+  float: right;
+  margin: 15% 10% 5% 85%
+}
+
+#imagens{
+  display: block;
+  margin-bottom: 10px;
+}
+
+#imagensEscondidas{
+  display:none /*Esconder imagens*/
+}
+
+#imagensEscondidas.mostrar {
+  display: block; /* Mostra quando a classe é adicionada */
+}
+
+#contatoEscondido{
+  display: none; /*Esconder contato*/
+
+}
+
+#contatoEscondido.mostrar{
+  display: block;/* Mostra quando a classe é adicionada */
+
+}
+
+img{
+  width: 25%;
+  margin: 1%;
+
+}
+
+p{
+  font-size: 20px;
+}
+
+a{
+  font-size: 20px;
+  color: blue;
+  margin-right: 2%;
+}
+
+body{
+  background-image: linear-gradient(to right, gray, black);
+  color: white;
+
+}
+
+
+
+
