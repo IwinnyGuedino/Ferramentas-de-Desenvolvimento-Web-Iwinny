@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body, html{
+  height: 100%;
+}
+
+h1{
+  margin: 2%;
+}
+
+h2{
+  margin: 1%;
+}
+
+.sectionDoVideo{
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.texto{
+  position: relative;
+  z-index: 01;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px black;
+  white-space: pre-wrap;
+}
+
+
